@@ -89,8 +89,8 @@ a, a:hover {
 }
 
 .inner-banner {
-  position: absolute;
-  top: 80%;
+  position: absolute;;
+  top: 80% ;
   width: 100%;
   text-align: center;
 }
@@ -119,6 +119,10 @@ a, a:hover {
 #about {
   text-align: center;
   padding-top: 3%;
+}
+
+.about {
+  background-color: #FFFFF8;
 }
 
 .about article {
@@ -161,24 +165,26 @@ a, a:hover {
   max-width: 100%;
   position: relative;
   overflow: hidden;
+  padding: 15px;
 }
 
 .newspic img {
   /*width: 100%;
   max-width: 100%;*/
-  transition: all 1s ease;
+  transition: all 0.35s ease;
   height: 170px;
   width: 255px;
 }
 
 .newspic img:hover {
-  transform: scale(1.08);
+  transform: scale(1.15);
 }
 
 
 /* shop */
 .shop {
   margin-bottom: 2%;
+  background-color: #FFFFF8;
 }
 
 #shop {
@@ -198,7 +204,7 @@ a, a:hover {
   height: 100%;
   width: 100%;
   margin-bottom: 3%;
-  transition: all 1s ease;
+  transition: all 0.35s ease;
 }
 
 .shoppic img:hover {
@@ -243,18 +249,26 @@ input {
 }
 
 input[type=text] {
-  height: 50px;
+  height: 30px;
   width: 500px;
+  background-color: #FFFFF8;
+  border-radius: 5px;
 }
 
 input[type=email] {
-  height: 50px;
+  height: 100px;
   width: 500px;
+}
+
+select {
+  border-radius: 5px;
 }
 
 textarea {
   width: 500px;
-  height: 200px;
+  height: 100px;
+  background-color: #FFFFF8;
+  border-radius: 5px;
 }
 
 
