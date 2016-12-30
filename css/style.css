@@ -252,7 +252,7 @@ input[type=text] {
   height: 30px;
   width: 500px;
   background-color: #FFFFF8;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 input[type=email] {
@@ -261,14 +261,14 @@ input[type=email] {
 }
 
 select {
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 textarea {
   width: 500px;
   height: 100px;
   background-color: #FFFFF8;
-  border-radius: 5px;
+  border-radius: 4px;
 }
 
 
